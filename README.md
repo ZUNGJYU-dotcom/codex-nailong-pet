@@ -4,6 +4,16 @@
 
 > 这是非官方、粉丝创作的第三方角色衍生包，与奶龙官方及 OpenAI 均无隶属、授权或背书关系。使用前请阅读 [NOTICE.md](NOTICE.md)。
 
+## 可选版本
+
+- **第一版 · 圆滚滚奶龙**：当前仓库根目录，宠物 ID 为 `nailoong`。
+- **第二版 · 抽象奶龙**：见 [`v2-abstract/`](v2-abstract/)，宠物 ID 为 `nailoong-abstract`；可与第一版同时安装。
+
+## 下载
+
+- 在仓库右侧打开 **Releases**，下载对应版本的 ZIP 安装包。
+- 只想安装第二版时，也可以直接进入 [`v2-abstract/`](v2-abstract/) 下载 `pet.json` 与 `spritesheet.webp`。
+
 ![待机动画预览](preview-idle.gif)
 
 ## 功能
