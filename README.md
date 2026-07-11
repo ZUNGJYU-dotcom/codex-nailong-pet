@@ -11,8 +11,10 @@
 
 ## 下载
 
-- 在仓库右侧打开 **Releases**，下载对应版本的 ZIP 安装包。
-- 只想安装第二版时，也可以直接进入 [`v2-abstract/`](v2-abstract/) 下载 `pet.json` 与 `spritesheet.webp`。
+- 第二版完整安装包：[`codex-nailong-pet-v2-abstract.zip`](codex-nailong-pet-v2-abstract.zip)
+- 也可以直接进入 [`v2-abstract/`](v2-abstract/) 下载 `pet.json` 与 `spritesheet.webp`。
+
+第二版 ZIP 的 SHA-256：`84ab555011b40c4b389d613b79c721f171be4d273c0f0eab37ad391f9350d2f3`
 
 ![待机动画预览](preview-idle.gif)
 
