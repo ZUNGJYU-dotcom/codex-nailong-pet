@@ -1,0 +1,23 @@
+{
+  "petId": "milk-frog-showtime",
+  "reviewedAt": "2026-07-11T13:12:49Z",
+  "blindValidation": "pass",
+  "directions": [
+    {"direction":"000","verdict":"pass","expected":"向上","observed":"双凸眼上翻、头颈上伸，脸保持正面。","reason":"硬门槛上向盲测通过。"},
+    {"direction":"022.5","verdict":"pass","expected":"向右上","observed":"上视为主，嘴和近侧眼已向画面右侧偏移。","reason":"右上过渡在盲测中被判为 screen-right 与 up。"},
+    {"direction":"045","verdict":"pass","expected":"向右上","observed":"右侧脸和绿色近侧眼更清晰，同时仍上抬。","reason":"方向弧线连续。"},
+    {"direction":"067.5","verdict":"pass","expected":"向右上","observed":"接近右向的三分之二侧脸，眼线仍略上扬。","reason":"方向弧线连续。"},
+    {"direction":"090","verdict":"pass","expected":"向右","observed":"嘴、头部和近侧大眼明确朝画面右侧。","reason":"硬门槛左右盲测通过。"},
+    {"direction":"112.5","verdict":"pass","expected":"向右下","observed":"右向头部开始低头，双手仍稳在肚皮。","reason":"右下过渡盲测通过。"},
+    {"direction":"135","verdict":"pass","expected":"向右下","observed":"右侧近眼和低头姿势均明确。","reason":"方向弧线连续。"},
+    {"direction":"157.5","verdict":"pass","expected":"向右下","observed":"接近下视，保留轻微画面右侧偏移。","reason":"与 180 平滑衔接。"},
+    {"direction":"180","verdict":"pass","expected":"向下","observed":"两眼和头部俯向奶油肚皮。","reason":"硬门槛下向盲测通过。"},
+    {"direction":"202.5","verdict":"pass","expected":"向左下","observed":"低头为主，嘴和近侧眼转向画面左侧。","reason":"左下过渡盲测通过。"},
+    {"direction":"225","verdict":"pass","expected":"向左下","observed":"左侧低头三分之二侧脸清楚。","reason":"方向弧线连续。"},
+    {"direction":"247.5","verdict":"pass","expected":"向左下","observed":"接近左向，仍维持下视趋势。","reason":"方向弧线连续。"},
+    {"direction":"270","verdict":"pass","expected":"向左","observed":"嘴、头部和近侧大眼明确朝画面左侧。","reason":"硬门槛左右盲测通过。"},
+    {"direction":"292.5","verdict":"pass","expected":"向左上","observed":"左向三分之二侧脸开始上抬。","reason":"左上过渡盲测通过。"},
+    {"direction":"315","verdict":"pass","expected":"向左上","observed":"近侧左眼上翻，头颈沿左半弧上升。","reason":"方向弧线连续。"},
+    {"direction":"337.5","verdict":"pass","expected":"向左上","observed":"接近上视并保留轻微画面左侧偏移。","reason":"盲测通过；与 000 的差异为正常轮廓回正。"}
+  ]
+}

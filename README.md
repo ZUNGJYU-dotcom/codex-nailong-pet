@@ -1,6 +1,6 @@
-# Codex 奶龙桌宠（非官方）
+# Codex 动态桌宠合集（非官方）
 
-一个可直接安装到 Codex 桌面版的奶龙动态宠物包。图像由 AI 辅助生成，并按 Codex 自定义桌宠 v2 图集格式完成透明背景、动作与方向测试。
+可直接安装到 Codex 桌面版的奶龙与奶蛙动态宠物包。图像由 AI 辅助生成，并按 Codex 自定义桌宠 v2 图集格式完成透明背景、动作与方向测试。
 
 > 这是非官方、粉丝创作的第三方角色衍生包，与奶龙官方及 OpenAI 均无隶属、授权或背书关系。使用前请阅读 [NOTICE.md](NOTICE.md)。
 
@@ -9,17 +9,22 @@
 - **第一版 · 圆滚滚奶龙**：当前仓库根目录，宠物 ID 为 `nailoong`。
 - **第二版 · 古早3D奶龙**：见 [`v2-abstract/`](v2-abstract/)，宠物 ID 为 `nailoong-abstract`；可与第一版同时安装。
 - **第三版 · 大笑奶龙**：见 [`v3-laughing/`](v3-laughing/)，宠物 ID 为 `nailoong-laughing`；主打抱肚大笑、夸张嘴型与 16 向视线。
+- **第四版 · 奶蛙·舞台摇摆版**：见 [`v4-milk-frog-showtime/`](v4-milk-frog-showtime/)，宠物 ID 为 `milk-frog-showtime`；主打交叉步、高抬膝、极端蛙眼表情与 16 向视线。
 
 ## 下载
 
 - 第二版完整安装包：[`codex-nailong-pet-v2-abstract.zip`](codex-nailong-pet-v2-abstract.zip)
 - 第三版完整安装包：[`codex-nailong-pet-v3-laughing.zip`](codex-nailong-pet-v3-laughing.zip)
+- 第四版完整安装包：[`codex-nailong-pet-v4-milk-frog-showtime.zip`](codex-nailong-pet-v4-milk-frog-showtime.zip)
 - 也可以直接进入 [`v2-abstract/`](v2-abstract/) 下载 `pet.json` 与 `spritesheet.webp`。
 - 第三版文件见 [`v3-laughing/`](v3-laughing/)。
+- 第四版文件见 [`v4-milk-frog-showtime/`](v4-milk-frog-showtime/)。
 
 第二版 ZIP 的 SHA-256：`4d8fe72aca24464afd57183fc6da2095cc1411bbdd1e736c9a7cafb88d72a286`
 
 第三版 ZIP 的 SHA-256：`6498d7bbb06948daf1a1a185afcd01cc3e4f4f38b28a86bc26cb598f788bc013`
+
+第四版 ZIP 的 SHA-256：`e57f284e6bb36ce42564559a334e308856bd2eff4a3ce2d79d8b4560ce7493aa`
 
 ![待机动画预览](preview-idle.gif)
 
