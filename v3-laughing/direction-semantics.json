@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "reviewed_by": "independent final visual QA worker",
+  "directions": [
+    {"direction":"000","verdict":"pass","expected":"up","observed":"front-facing body with head strongly tilted upward","reason":"Upward gaze is unambiguous and establishes the ring start."},
+    {"direction":"022.5","verdict":"pass","expected":"up-right","observed":"head remains high and begins turning toward screen-right","reason":"Ordered interpolation from 000 toward 045 is coherent."},
+    {"direction":"045","verdict":"pass","expected":"up-right","observed":"clear three-quarter upward-right head orientation","reason":"Head yaw and facial placement match the diagonal expectation."},
+    {"direction":"067.5","verdict":"pass","expected":"up-right approaching right","observed":"near-profile rightward turn with a still-elevated face","reason":"Credible bridge between 045 and the 090 cardinal."},
+    {"direction":"090","verdict":"pass","expected":"right","observed":"clear right-facing profile","reason":"The right cardinal is immediately distinguishable."},
+    {"direction":"112.5","verdict":"pass","expected":"down-right beginning","observed":"right profile with the chin beginning to lower","reason":"Head pitch progresses naturally away from 090."},
+    {"direction":"135","verdict":"pass","expected":"down-right","observed":"three-quarter right orientation with visibly lowered head","reason":"Diagonal down-right semantics are clear."},
+    {"direction":"157.5","verdict":"warning","expected":"down-right approaching down","observed":"strongly bowed right three-quarter pose","reason":"Direction is correct; the next step into 180 has a larger yaw and center change than neighboring steps."},
+    {"direction":"180","verdict":"warning","expected":"down","observed":"front-facing body and head bowed centrally downward","reason":"The down cardinal is clear; entry from 157.5 is somewhat abrupt but visually acceptable."},
+    {"direction":"202.5","verdict":"pass","expected":"down-left beginning","observed":"bowed head starts rotating toward screen-left","reason":"Coherent transition from central down to leftward diagonals."},
+    {"direction":"225","verdict":"pass","expected":"down-left","observed":"clear lowered three-quarter left-facing pose","reason":"Diagonal direction is readable and identity remains stable."},
+    {"direction":"247.5","verdict":"pass","expected":"down-left approaching left","observed":"left-biased near-profile with head still slightly lowered","reason":"Ordered progression into 270 is smooth."},
+    {"direction":"270","verdict":"pass","expected":"left","observed":"clear left-facing profile","reason":"The left cardinal is immediately distinguishable."},
+    {"direction":"292.5","verdict":"pass","expected":"up-left beginning","observed":"left profile with chin and face beginning to lift","reason":"Correctly begins the upward arc after 270; subtle vertical contrast remains readable in the ordered loop."},
+    {"direction":"315","verdict":"pass","expected":"up-left","observed":"clear three-quarter upward-left head orientation","reason":"Diagonal semantics and ordered interpolation are clear."},
+    {"direction":"337.5","verdict":"warning","expected":"up-left approaching up","observed":"strong upward-left pose immediately before the front-up frame","reason":"Direction is correct; closure to 000 has a noticeable area and pose jump but remains acceptable at normal pet size."}
+  ],
+  "accepted_warnings": [
+    "157.5 to 180 has a larger than neighboring visual transition but no direction or identity error.",
+    "337.5 to 000 has a noticeable area and pose reset but remains a readable loop closure.",
+    "Blind pair vertical-7 was ambiguous to two reviewers; labeled ordered-loop review confirms 292.5 begins the up-left arc and 247.5 remains down-left approaching left."
+  ],
+  "failures": []
+}

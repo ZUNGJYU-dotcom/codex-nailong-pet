@@ -8,13 +8,18 @@
 
 - **第一版 · 圆滚滚奶龙**：当前仓库根目录，宠物 ID 为 `nailoong`。
 - **第二版 · 古早3D奶龙**：见 [`v2-abstract/`](v2-abstract/)，宠物 ID 为 `nailoong-abstract`；可与第一版同时安装。
+- **第三版 · 大笑奶龙**：见 [`v3-laughing/`](v3-laughing/)，宠物 ID 为 `nailoong-laughing`；主打抱肚大笑、夸张嘴型与 16 向视线。
 
 ## 下载
 
 - 第二版完整安装包：[`codex-nailong-pet-v2-abstract.zip`](codex-nailong-pet-v2-abstract.zip)
+- 第三版完整安装包：[`codex-nailong-pet-v3-laughing.zip`](codex-nailong-pet-v3-laughing.zip)
 - 也可以直接进入 [`v2-abstract/`](v2-abstract/) 下载 `pet.json` 与 `spritesheet.webp`。
+- 第三版文件见 [`v3-laughing/`](v3-laughing/)。
 
 第二版 ZIP 的 SHA-256：`4d8fe72aca24464afd57183fc6da2095cc1411bbdd1e736c9a7cafb88d72a286`
+
+第三版 ZIP 的 SHA-256：`6498d7bbb06948daf1a1a185afcd01cc3e4f4f38b28a86bc26cb598f788bc013`
 
 ![待机动画预览](preview-idle.gif)
 
